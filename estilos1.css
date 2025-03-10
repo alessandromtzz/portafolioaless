@@ -1,0 +1,35 @@
+body{
+	
+}
+table{
+	width: 100%;
+	border-collapse: collapse;
+	font-family: arial, verdana, sans-serif;
+	caption-side: top;
+	margin: auto;
+}
+th, td{
+	border: 1px solid darkred;
+	padding: 5px;
+}
+th{
+	padding: 15px;
+}
+td{
+	padding: 5px;
+	text-align: justify;
+}
+table tr:nth-child(odd){
+	background-color: lightblue;
+}
+table tr:nth-child(even){
+	background-color: lightgreen;
+}
+tr th{
+	background-color: black;
+	color:white;
+}
+table tr:hover{
+	background-color: black;
+	color: white;
+}

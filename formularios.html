@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evaluación Práctica Parcial 1</title>
+</head>
+<body>
+<h1>Registro de usuarios</h1>
+<form action="" method="post" enctype="text/plain">
+
+<fieldset>
+<legend>Datos del usuario</legend>
+ 
+ 
+            <input type="text" name="usuario" id="usuario" placeholder="nombre de usuario" size="15" maxlength="30">
+ 
+            <label for="pass">Contraseña:</label>
+<input type="password" name="pass" id="pass" size="20" maxlength="20" placeholder="Contraseña">  
+ 
+
+<label for="sugerencia">Sugerencias o quejas</label>
+<textarea name="sugerencia" id="sugerencia" rows="5" cols="30"></textarea>
+ 
+    <label for="correo"> E mail:</label>
+	<input type="email" name="correo" id="correo"><br/>
+
+ 	<label for="fechanac">Fecha de Nacimiento</label>
+    <input type="date" name="fechanac" id="fechanac"><br/>
+
+    <label for="hora">Hora de nacimiento:</label>
+    <input type="time" name="hora" id="hora"><br/>
+
+    <label for="sitioweb">Sitio Web</label>
+    <input type="url" name="sitioweb" id="sitioweb"><br/>
+
+    <label for="edad">Edad:</label>
+    <input type="number" name="edad" id="edad"><br/>
+
+    <label for="califica">Califica el servicio</label>
+    <input type="range" name="califica" id="califica" min="1" max="10" value="10"><br/>
+
+    <label for="colores">Color favorito:</label>
+    <input type="color" name="colores" id="colores"><br/>
+
+    <label for="mes">Mes de nacimiento</label>
+    <input type="month" name="mes" id="mes"><br/>
+
+    <label for="semana">Semana numero</label>
+    <input type="week" name="semana" id="semana"><br/>
+
+    <label for="fechahora">Fecha y hora de la cita:</label>
+    <input type="datetime-local" name="fechahora" id="fechahora"><br/>
+    
+    <label for="cv">Curriculum Vitae:</label>
+    <input type="file" name="cv" id="cv"><br/>
+
+    <h3>Pasatiempos</h3>
+    <input type="checkbox" name="pasa1" id="pasa1" value="1">
+    <label for="pasa1">Natación</label><br/>
+    <input type="checkbox" name="pasa2" id="pasa2" value="2">
+    <label for="pasa2">Baile</label><br/>
+    <input type="checkbox" name="pasa3" id="pasa3" value="3">
+    <label for="pasa3">Basquetbol</label><br/>
+
+    <h3>Indica tu género</h3>
+    <input type="radio" name="genero" id="genero">
+    <label for="genero">Femenino</label>
+    <input type="radio" name="genero" id="genero">
+    <label for="genero">Masculino</label>
+
+    <h3>Selecciona una carrera</h3>
+    <select name="carreras" id="carreras">
+        <optgroup>
+            <option value="1" selected>ITI</option>
+            <option value="2">ITEM</option>
+            <option value="3">ISTI</option>
+            <option value="4">ITMA</option>
+        </optgroup>
+        <optgroup>
+            <option value="5">LMKT</option>
+            <option value="6">LAG</option>
+            
+    </select><br/><br/>
+
+    <input type="submit" name="enviar" id="enviar" value="Enviar datos">
+</fieldset>
+</form>
+</body>
+</html>
