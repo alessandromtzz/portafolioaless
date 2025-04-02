@@ -1,0 +1,44 @@
+.contenedor{
+	position: relative;
+	background: gray;
+	height: 100px;
+}
+
+.caja1{
+	position: relative;
+	background: orange;
+	height: 50px;
+	left: 10px;
+}
+
+.caja2{
+	position: absolute;
+	background: blue;
+	height: 50px;
+	left: 50px;
+	top: 55px;
+}
+
+.caja3{
+	position: fixed;
+	background: violet;
+	height: 50px;
+	right: 30px;
+	bottom: 0px;
+}
+
+.caja4{
+	background: green;
+	position: absolute;
+	z-index: 4;
+	bottom: 10px;
+	position: fixed;
+}
+
+.caja5{
+	background: red;
+	right: 3px;
+	z-index: 1;
+	top: 10px;
+	position: relative;
+}
