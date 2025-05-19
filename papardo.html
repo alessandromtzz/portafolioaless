@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pagos de estacionamiento</title>
+    <script src="papardojs.js" defer></script>
+    <link rel="stylesheet" href="examenpractico3css.css">
+</head>
+<body>
+    <h1>Pagos de estacionamiento</h1>
+
+    <label for="horas">Horas de estacionamiento</label><br>
+    <input type="number" id="horas" min="1"><br>
+
+    <label for="tipoAuto">Tipo de auto</label><br>
+    <select id="tipoAuto">
+        <option value="autoChico">Auto chico</option>
+        <option value="camioneta">Camioneta</option>
+        <option value="camion">Camión</option>
+    </select><br>
+
+    <button onclick="calcularPago()">Calcular total a pagar</button>
+
+    <p id="resultado">Total a pagar: $0.00</p>
+</body>
+</html>

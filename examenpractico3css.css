@@ -1,0 +1,14 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        input, select, button {
+            margin: 10px;
+            padding: 8px;
+            width: 250px;
+        }
+        #resultado {
+            margin-top: 20px;
+            font-weight: bold;
+        }
